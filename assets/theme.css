@@ -1,0 +1,9 @@
+:root{--bg:#07121b;--card:#0d1a26;--fg:#eaf1f7;--muted:#8aa0af;--accent:#00e0c7;--accent2:#007f73}
+html, body, [data-testid="stAppViewContainer"]{background-color:var(--bg); color:var(--fg)}
+.block-container{padding-top:1.2rem}
+.card{background:var(--card); border:1px solid #123142; border-radius:16px; padding:16px; box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.kpi{display:grid; grid-template-columns:repeat(4,1fr); gap:10px}
+.kpi .tile{background:#0f2232; border:1px solid #17394a; border-radius:12px; padding:10px}
+.kpi .tile .l{font-size:12px; color:#9fb1be}
+.kpi .tile .v{font-size:20px; font-weight:900}
+.badge{display:inline-block; padding:2px 8px; background:#0f2232; border:1px solid #17394a; border-radius:999px; font-size:12px}
