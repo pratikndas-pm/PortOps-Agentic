@@ -1,5 +1,5 @@
-block,slots
-A1,800
-A2,600
-B1,700
-C1,500
+block,type,slots
+A1,IMP,800
+A2,IMP,600
+B1,EXP,700
+C1,REEFER,500
