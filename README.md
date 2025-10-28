@@ -1,19 +1,13 @@
+# 🚢 PortOps Agentic v2 — AI Planner + Chat
+Polished Gradio demo that acts like an agentic terminal planner: chat to produce berth plans, crane allocations, and yard suggestions — plus KPIs and chart.
 
-# 🚢 PortOps Agentic
-**Autonomous Terminal Intelligence — berth, crane & yard planning**
+## Deploy (Hugging Face Spaces)
+- Create Space → SDK **Gradio**
+- Upload everything inside `PortOps-Agentic-v2/`
+- Open **App**
 
-Polished agentic AI demo for ports & container terminals. Includes agentic orchestration, KPIs, a workload chart, and a right-side panel with examples & test data.
-
-## Live Demo (replace with your Space link)
-https://huggingface.co/spaces/YOUR-SPACE/PortOps-Agentic
-
-## Deploy (Hugging Face)
-1. Create a Space (SDK: Gradio, Public)
-2. Upload the contents of `PortOps-Agentic/`
-3. Open the App tab — done.
-
-## Example Inputs
-- berth plan
-- list schedule
-- crane plan + Vessel: MSC AURORA
-- yard plan + Moves: 3000
+## Prompts
+- `berth plan`
+- `list schedule`
+- `crane plan MSC AURORA`
+- `yard plan 3000`
